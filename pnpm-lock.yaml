@@ -1,18 +1,34 @@
-lockfileVersion: '6.0'
+lockfileVersion: '9.0'
 
 settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-devDependencies:
-  mkdirp:
-    specifier: ^3.0.1
-    version: 3.0.1
+importers:
+
+  .:
+    dependencies:
+      lune:
+        specifier: ^0.4.0
+        version: 0.4.0
+    devDependencies:
+      mkdirp:
+        specifier: ^3.0.1
+        version: 3.0.1
 
 packages:
 
-  /mkdirp@3.0.1:
+  lune@0.4.0:
+    resolution: {integrity: sha512-rMdQf3UWY+fga8vo2MjXkpvqesliljvqIS2AjkEHZLhj7fpgT30S11hoEfug/yNPLy1jWLr2G2esQIzlQjbfpQ==}
+    engines: {node: '>=4.0.0'}
+
+  mkdirp@3.0.1:
     resolution: {integrity: sha512-+NsyUUAZDmo6YVHzL/stxSu3t9YS1iljliy3BSDrXJ/dkn1KYdmtZODGGjLcc9XLgVVpH4KshHB8XmZgMhaBXg==}
     engines: {node: '>=10'}
     hasBin: true
-    dev: true
+
+snapshots:
+
+  lune@0.4.0: {}
+
+  mkdirp@3.0.1: {}

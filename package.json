@@ -3,14 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "init.lua",
-"scripts": {
-  "rojo": "mkdirp dist && C:\\Users\\Administrator\\Documents\\rojo-7.5.1\\rojo.exe build -o dist/main.rbxm",
-  "bundle": "pnpm run rojo && lune build"
-},
+  "scripts": {
+    "rojo": "mkdirp dist && C:\\Users\\Administrator\\Documents\\rojo-7.5.1\\rojo.exe build -o dist/main.rbxm",
+    "bundle": "pnpm run rojo && lune build"
+  },
   "keywords": [],
   "author": "dawid",
   "license": "MIT",
   "devDependencies": {
     "mkdirp": "^3.0.1"
+  },
+  "dependencies": {
+    "lune": "^0.4.0"
   }
 }
