@@ -7,11 +7,10 @@ settings:
 importers:
 
   .:
-    dependencies:
+    devDependencies:
       lune:
         specifier: ^0.4.0
         version: 0.4.0
-    devDependencies:
       mkdirp:
         specifier: ^3.0.1
         version: 3.0.1
